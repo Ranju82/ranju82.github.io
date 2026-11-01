@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BluChat Privacy Policy</title>
+<meta name="description" content="Privacy policy for BluChat, the Bluetooth chat and file sharing app for Android by RoshniTech.">
+<style>
+  /* Layout: single readable column, plain document with a quiet brand header */
+  :root {
+    --bg: #F9F9FF;
+    --surface: #FFFFFF;
+    --fg: #1A1B21;
+    --muted: #4A4D59;
+    --line: #DCDEE8;
+    --accent: #1B5FD9;
+    --accent-soft: #E3E9FF;
+    --font-display: "Manrope", "Segoe UI", Roboto, Arial, sans-serif;
+    --font-body: "Source Sans 3", "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111318; --surface: #1A1C22; --fg: #E2E2E9; --muted: #B4B7C4;
+      --line: #33353D; --accent: #A9BFFF; --accent-soft: #1F2B4A; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #111318; --surface: #1A1C22; --fg: #E2E2E9; --muted: #B4B7C4;
+    --line: #33353D; --accent: #A9BFFF; --accent-soft: #1F2B4A; color-scheme: dark;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-body);
+    font-size: 17px;
+    line-height: 1.6;
+    padding-inline: 16px;
+    padding-block: 32px 64px;
+  }
+  main { max-width: 680px; margin: 0 auto; display: grid; gap: 28px; }
+  header { display: grid; gap: 10px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+  .app { display: flex; align-items: center; gap: 12px; font-family: var(--font-display); font-weight: 700; font-size: 18px; }
+  .app svg { flex: none; border-radius: 12px; }
+  h1 { font-family: var(--font-display); font-size: clamp(28px, 6vw, 38px); line-height: 1.15; margin: 4px 0 0; text-wrap: balance; letter-spacing: -0.01em; }
+  .meta { color: var(--muted); font-size: 15px; margin: 0; }
+  .summary { background: var(--accent-soft); border-radius: 14px; padding: 18px 20px; }
+  .summary p { margin: 0; }
+  section { display: grid; gap: 8px; }
+  h2 { font-family: var(--font-display); font-size: 21px; margin: 0; text-wrap: balance; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.2em; display: grid; gap: 6px; }
+  strong { font-weight: 600; }
+  .perm { display: grid; gap: 10px; }
+  .perm div { border: 1px solid var(--line); background: var(--surface); border-radius: 12px; padding: 12px 16px; }
+  .perm b { display: block; font-family: var(--font-display); font-size: 16px; }
+  .perm span { color: var(--muted); font-size: 16px; }
+  .email { font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; font-size: 16px; user-select: all; color: var(--accent); word-break: break-all; }
+  footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 18px; }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap">
+</head>
+<body>
+<main>
+  <header>
+    <div class="app">
+      <svg width="40" height="40" viewBox="18 18 72 72" aria-hidden="true">
+        <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3D8BFF"/><stop offset="1" stop-color="#1449C8"/></linearGradient></defs>
+        <rect x="18" y="18" width="72" height="72" fill="url(#g)"/>
+        <path fill="#FFFFFF" fill-rule="evenodd" d="M42,30 H66 A12,12 0 0 1 78,42 V58 A12,12 0 0 1 66,70 H46 L33,79 L36,68.5 A12,12 0 0 1 30,58 V42 A12,12 0 0 1 42,30 Z M62.897,43.994L54.903,36.000h-1.400v10.626L47.077,40.200 45.103,42.174 52.929,50.000 45.103,57.826 47.077,59.800 53.503,53.374V64.000h1.400l7.994,-7.994 -6.020,-6.006 6.020,-6.006zM56.303,41.362l2.632,2.632L56.303,46.626V41.362zM58.935,56.006L56.303,58.638v-5.264l2.632,2.632z"/>
+      </svg>
+      BluChat
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Developer: RoshniTech · App: BluChat (com.rtech.bluchat) · Effective 21 October 2026</p>
+  </header>
+
+  <div class="summary">
+    <p><strong>In short:</strong> BluChat does not collect, store on any server, or share any of your personal data. Messages, photos, videos and files travel directly between two phones over Bluetooth and are saved only on those phones. BluChat has no servers, no accounts, no ads and no analytics.</p>
+  </div>
+
+  <section>
+    <h2>1. Information we collect</h2>
+    <p>We (RoshniTech, the developer of BluChat) do not collect any information about you. BluChat does not connect to the internet or to any server, so nothing you do in the app is ever sent to us or to anyone else except the person you choose to chat with.</p>
+  </section>
+
+  <section>
+    <h2>2. Information stored on your phone</h2>
+    <p>To work as a chat app, BluChat keeps the following on your own device, in storage that only BluChat can access:</p>
+    <ul>
+      <li>The messages you send and receive, with the time of each message.</li>
+      <li>Copies of photos, videos, voice messages and files you send or receive in a chat.</li>
+      <li>Names and photos you choose for the people you chat with. These are never sent to anyone.</li>
+      <li>The Bluetooth name and address of the phones you chat with, so each conversation can be shown again later.</li>
+      <li>Simple app settings, such as whether you have seen the welcome screen.</li>
+    </ul>
+    <p>This information is not uploaded or backed up to the cloud by BluChat, and Android's automatic app backup is turned off for BluChat.</p>
+  </section>
+
+  <section>
+    <h2>3. How information is shared</h2>
+    <p>When you chat, your messages and the photos, videos or files you choose to send go directly to the other phone over a Bluetooth connection. They are not shared with us or with any third party. Custom names and photos you set for contacts stay on your phone and are never sent. BluChat uses Android's secure Bluetooth connection, which requires the two phones to be paired and encrypts the link between them.</p>
+  </section>
+
+  <section>
+    <h2>4. Permissions the app uses</h2>
+    <div class="perm">
+      <div><b>Nearby devices / Bluetooth</b><span>To find phones nearby, connect to them, send and receive messages and files, and (only when you tap “Make this phone visible”) let other phones find yours.</span></div>
+      <div><b>Location (Android 11 and older only)</b><span>Older versions of Android require location permission to scan for Bluetooth devices. BluChat never reads, stores or shares your location.</span></div>
+      <div><b>Photos, videos and files</b><span>Only the items you pick in Android's photo or file picker are read, so they can be sent in a chat or used as a contact photo. BluChat cannot see any other files on your phone.</span></div>
+      <div><b>Microphone</b><span>Used only while you hold the mic button to record a voice message. The recording is sent directly to the person you are chatting with and kept in that chat on your phone.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Third-party services</h2>
+    <p>BluChat does not include advertising, analytics, crash-reporting or tracking services. The open-source libraries it uses (such as Android Jetpack libraries and the Coil image library) run only on your device and do not send data anywhere.</p>
+    <p>When you choose to open a received photo, video or file, Android passes only that item to the app you pick (for example a gallery or document viewer). That app's own privacy policy then applies to it.</p>
+  </section>
+
+  <section>
+    <h2>6. Deleting your data</h2>
+    <ul>
+      <li>To delete one conversation, open the chat, tap the menu and choose <strong>Clear chat</strong>. This removes its messages, photos and files from your phone.</li>
+      <li>To delete a single message, photo, voice message or file, long-press it and choose <strong>Delete</strong>. It is removed from your phone only.</li>
+      <li>To remove a contact's custom name or photo, long-press the contact, then clear the name or choose <strong>Remove photo</strong>.</li>
+      <li>To delete everything, uninstall BluChat or clear its storage in Android Settings.</li>
+      <li>Messages or files already delivered to another phone are stored on that phone and can only be deleted by its owner.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Children</h2>
+    <p>BluChat is not designed for children under 13, and we do not knowingly collect information from anyone, including children.</p>
+  </section>
+
+  <section>
+    <h2>8. Changes to this policy</h2>
+    <p>If this policy changes, we will update this page and the effective date above. Significant changes will also be mentioned in the app's release notes on Google Play.</p>
+  </section>
+
+  <section>
+    <h2>9. Contact</h2>
+    <p>If you have any questions about this privacy policy, email RoshniTech at:</p>
+    <p class="email">babitasingha440@gmail.com</p>
+  </section>
+
+  <footer>© 2026 RoshniTech. BluChat is available on Google Play.</footer>
+</main>
+</body>
+</html>
