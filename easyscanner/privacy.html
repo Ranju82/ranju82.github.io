@@ -38,24 +38,27 @@
 <main>
   <header>
     <h1>Privacy Policy: Easy Scanner</h1>
-    <p class="meta">Effective date: 15 October 2026 · Developer: RTech · Contact:
+    <p class="meta">Effective date: 10 November 2026 · Developer: RTech · Contact:
       <a href="mailto:ranjusingha81@gmail.com">ranjusingha81@gmail.com</a></p>
   </header>
 
   <p class="summary"><strong>Summary.</strong> Easy Scanner works on your phone. Your documents, scans, signatures
-    and the text recognized in them stay on your device. The app has no account system, no ads and no analytics,
-    and we run no servers that receive your data.</p>
+    and the text recognized in them stay on your device. The app has no account system and no analytics, and we
+    run no servers that receive your data. The home screen shows a banner ad from Google AdMob; see
+    <a href="#advertising">Advertising</a> below for what that involves.</p>
 
   <h2>What the app processes, and where</h2>
   <div class="table-wrap">
   <table>
     <tr><th>Data</th><th>Where it is processed</th><th>Leaves your device?</th></tr>
     <tr><td>Scanned pages, imported PDFs and images</td><td>On your device</td><td>No, unless you share or back them up</td></tr>
+    <tr><td>Merged, split, compressed or edited PDFs</td><td>On your device</td><td>No, unless you share or back them up</td></tr>
     <tr><td>Text recognized by OCR</td><td>On your device (Google ML Kit)</td><td>No</td></tr>
     <tr><td>AI summaries and answers</td><td>On your device (Gemini Nano via Android AICore), or an offline fallback</td><td>No</td></tr>
     <tr><td>Translations</td><td>On your device (Google ML Kit Translate)</td><td>No</td></tr>
     <tr><td>Signatures you draw or import</td><td>Stored in the app's private storage</td><td>No</td></tr>
     <tr><td>Backups</td><td>Written to the location you choose (for example Google Drive)</td><td>Only to the place you choose</td></tr>
+    <tr><td>Device and ad data (see <a href="#advertising">Advertising</a>)</td><td>Collected by the Google Mobile Ads SDK</td><td>Yes, to Google</td></tr>
   </table>
   </div>
 
@@ -67,6 +70,23 @@
     <a href="https://developers.google.com/ml-kit/android-data-disclosure">Google's ML Kit data disclosure</a>
     and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. RTech does not receive this
     information.</p>
+
+  <h2 id="advertising">Advertising</h2>
+  <p>The home screen shows a banner ad served by Google AdMob. To show and measure ads and to prevent fraud, the
+    Google Mobile Ads SDK collects information from your device such as your IP address, the device's advertising ID,
+    device and app information, approximate location derived from the IP address, how you interact with ads, and
+    diagnostic data. Google may use it to personalize ads, unless you opt out. This is handled by Google under its own
+    policies: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites
+    or apps that use its services</a> and <a href="https://policies.google.com/technologies/ads">Advertising</a>.
+    RTech does not receive this data in a form that identifies you. Your documents, scans and their text are never
+    shared with the ad SDK.</p>
+  <ul>
+    <li><strong>Your choices:</strong> in the EEA, the UK and other regions where the law requires it, the app asks
+      for your consent before showing ads, and you can change your choice any time in
+      <em>Settings → Ad privacy choices</em>. Anywhere, you can reset or delete your advertising ID or opt out of
+      personalized ads in your phone's settings (<em>Settings → Google → Ads</em> or
+      <em>Settings → Security &amp; privacy → Privacy → Ads</em>).</li>
+  </ul>
 
   <h2>When you contact us</h2>
   <p>If you email us, including when you use <em>Contact support</em> or <em>Report</em> on an AI answer, the app
@@ -81,7 +101,9 @@
 
   <h2>Permissions</h2>
   <ul>
-    <li><strong>Internet:</strong> the only permission the app requests. It is used to download the models described above.</li>
+    <li><strong>Internet:</strong> used to download the models described above and to load ads.</li>
+    <li><strong>Advertising ID:</strong> requested by the Google Mobile Ads SDK to show and measure ads (see
+      <a href="#advertising">Advertising</a>).</li>
     <li><strong>Camera:</strong> the app doesn't request camera permission. Scanning uses Google's document scanner
       (part of Google Play services), which opens the camera only while you scan.</li>
     <li><strong>Photos and files:</strong> the app reads only the photos and files you pick in the system picker
@@ -91,14 +113,16 @@
   <h2>Data retention and deletion</h2>
   <p>Documents stay on your phone until you delete them in the app. Uninstalling the app deletes everything in its
     private storage. Backup files you saved elsewhere are not affected. To have emails you sent us deleted, write to
-    <a href="mailto:ranjusingha81@gmail.com">ranjusingha81@gmail.com</a>.</p>
+    <a href="mailto:ranjusingha81@gmail.com">ranjusingha81@gmail.com</a>. Data collected by Google for ads is kept and
+    deleted under Google's policies; you can reset or delete your advertising ID at any time as described above.</p>
 
   <h2>Security</h2>
   <p>Documents are kept in the app's private storage, which other apps can't read. You can also protect individual
     PDFs with a password (AES-256 encryption).</p>
 
   <h2>Children</h2>
-  <p>The app is not directed at children under 13 and does not knowingly collect personal data from anyone.</p>
+  <p>The app is not directed at children under 13. We don't knowingly collect personal data from children, and ads
+    in the app are not intended for children.</p>
 
   <h2>Changes</h2>
   <p>If this policy changes, we will update the effective date above and publish the new version at this address.</p>
