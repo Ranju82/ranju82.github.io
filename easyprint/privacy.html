@@ -87,8 +87,8 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
       EasyPrint
     </div>
     <h1>Privacy Policy</h1>
-    <div class="meta">Effective 21 October 2026 · App ID com.rtech.easyprint</div>
-    <p class="lede">EasyPrint prints your files directly from your phone to your printer. Your documents go to your printer and nowhere else. We do not collect, store or sell your personal data.</p>
+    <div class="meta">Effective 10 November 2026 · App ID com.rtech.easyprint</div>
+    <p class="lede">EasyPrint prints your files directly from your phone to your printer. Your documents go to your printer and nowhere else. We do not collect, store or sell your personal data. The free app shows banner ads from Google AdMob, which collects some device data as described in section 6.</p>
   </header>
 
   <div class="summary">
@@ -98,8 +98,10 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
         <tr><th>Do we collect personal data?</th><td class="no">No</td></tr>
         <tr><th>Do your documents leave your phone?</th><td>Only to the printer you choose</td></tr>
         <tr><th>Do you need an account?</th><td class="no">No</td></tr>
-        <tr><th>Analytics, advertising or tracking?</th><td class="no">None</td></tr>
-        <tr><th>Is data shared with or sold to third parties?</th><td class="no">No</td></tr>
+        <tr><th>Advertising?</th><td>Yes, banner ads from Google AdMob (section 6)</td></tr>
+        <tr><th>Analytics or crash reporting?</th><td class="no">None</td></tr>
+        <tr><th>Does any third party receive data?</th><td>Only Google AdMob, to show ads. It never sees your documents or printers</td></tr>
+        <tr><th>Do we sell your data?</th><td class="no">No</td></tr>
       </table>
     </div>
   </div>
@@ -114,6 +116,7 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
   <section>
     <h2><span class="n">2</span>Printers and settings</h2>
     <p>The app stores the printers you add (name, network address or USB identifiers), your default printer and your preferences, such as theme and paper size. This information stays on your phone in the app's private storage. We never receive it.</p>
+    <p>If Android backup is turned on for your phone, Android may include these settings in your own backup, such as your Google account backup. That backup is controlled by you and your backup provider, not by us.</p>
   </section>
 
   <section>
@@ -122,7 +125,8 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
       <li><strong>Network access</strong> lets the app send print jobs to network printers and check their status.</li>
       <li><strong>Wi-Fi multicast</strong> lets the app find printers on your local network automatically.</li>
       <li><strong>USB access</strong> lets the app print to a printer connected by cable. Android asks for your permission for each printer.</li>
-      <li><strong>Notifications</strong> show the progress of a print job. You can turn them off in Android settings.</li>
+      <li><strong>Notifications</strong> tell you when downloaded printer support is ready, or when a download failed (see section 5). You can turn them off in Android settings.</li>
+      <li><strong>Advertising ID</strong> lets Google AdMob show and measure ads (see section 6). You can reset or delete it in Android settings.</li>
     </ul>
     <p>Files are opened only through the Android file picker, so the app can read only the files you choose.</p>
   </section>
@@ -135,39 +139,60 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
 
   <section>
     <h2><span class="n">5</span>Printer support downloads</h2>
-    <p>The app may offer to download extra printer support (small data files that tell EasyPrint how to talk to a printer). Downloads happen only with your consent or if you allow them in Settings. Like any internet request, the download reveals your device's IP address to the server. No account, documents or printer list is sent.</p>
+    <p>The app may offer to download extra printer support (small data files that tell EasyPrint how to talk to a printer). They contain no program code.</p>
+    <ul>
+      <li><strong>Catalog check.</strong> About once a week the app downloads the list of available printer support, so it can offer support for your printer when you need it. This happens in the background, on Wi-Fi only unless you change that in Settings.</li>
+      <li><strong>Downloads.</strong> Printer support is downloaded only after you agree, or automatically if you choose <em>Always</em> in Settings.</li>
+      <li><strong>Your control.</strong> Choose <em>Never</em> in <em>EasyPrint › Settings</em> to stop both the catalog check and downloads.</li>
+    </ul>
+    <p>Like any internet request, these requests reveal your device's IP address to the server. Nothing else is sent: no account, documents, printer list or printer details. The server is used only to deliver these files.</p>
   </section>
 
   <section>
-    <h2><span class="n">6</span>What we don't do</h2>
+    <h2><span class="n">6</span>Advertising</h2>
+    <p>EasyPrint is free and shows a small banner ad from Google AdMob on its main screens. Ads never appear on the print preview, and the ad service never receives your documents, file names, printers or print settings.</p>
+    <p>To show ads, limit how often you see them, measure them and prevent fraud, the Google Mobile Ads SDK in the app collects the following and sends it to Google:</p>
     <ul>
-      <li>We don't use analytics, crash-reporting, or advertising services.</li>
-      <li>We don't track your location or build a profile of you.</li>
-      <li>We don't sell, rent or share personal data with anyone.</li>
+      <li>your device's advertising ID and app set ID</li>
+      <li>your IP address, from which an approximate location may be worked out</li>
+      <li>device and app information, such as phone model, Android version, language and app version</li>
+      <li>ad interactions, such as ads shown and tapped, and diagnostic data about ad performance</li>
+    </ul>
+    <p>This data is encrypted in transit. Google processes it under its own policies: see <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+    <p><strong>Your consent.</strong> Where the law requires it, for example in the EEA, the UK and Switzerland, the app shows Google's consent form before personalised ads are shown. You can change your choice at any time in <em>EasyPrint › Settings › Ad privacy choices</em>. If you decline, you may still see non-personalised ads, which are based on things like the app and your approximate location.</p>
+    <p><strong>Your advertising ID.</strong> You can reset or delete it in <em>Android Settings › Privacy › Ads</em> (on some phones <em>Settings › Google › Ads</em>).</p>
+  </section>
+
+  <section>
+    <h2><span class="n">7</span>What we don't do</h2>
+    <ul>
+      <li>We don't use analytics or crash-reporting services.</li>
+      <li>We don't track your location or build a profile of you ourselves.</li>
+      <li>We don't sell or rent personal data. Apart from what Google AdMob collects to show ads (section 6), we don't share it with anyone.</li>
     </ul>
   </section>
 
   <section>
-    <h2><span class="n">7</span>Children</h2>
-    <p>EasyPrint does not collect personal data from anyone, including children under 13.</p>
+    <h2><span class="n">8</span>Children</h2>
+    <p>EasyPrint is a general-audience app and is not directed at children under 13. We do not collect personal data from anyone. Ads in the app come from Google AdMob, as described in section 6.</p>
   </section>
 
   <section>
-    <h2><span class="n">8</span>Your choices</h2>
-    <p>Since all data stays on your phone, you control it. You can delete saved printers in the app, or remove everything by going to <em>Settings › Apps › EasyPrint › Storage › Clear data</em> or uninstalling the app.</p>
+    <h2><span class="n">9</span>Your choices</h2>
+    <p>The app keeps your printers, settings and files on your phone, so you control them. You can delete saved printers in the app, or remove everything by going to <em>Settings › Apps › EasyPrint › Storage › Clear data</em> or uninstalling the app. To change your ad choices or your advertising ID, see section 6.</p>
   </section>
 
   <section>
-    <h2><span class="n">9</span>Changes to this policy</h2>
+    <h2><span class="n">10</span>Changes to this policy</h2>
     <p>If this policy changes, we will update this page and the effective date above. If a change affects what data the app handles, we will mention it in the app's release notes.</p>
   </section>
 
   <section>
-    <h2><span class="n">10</span>Contact</h2>
+    <h2><span class="n">11</span>Contact</h2>
     <p class="contact">Questions about privacy? Email <code>ranjusingha81@gmail.com</code></p>
   </section>
 
-  <footer>EasyPrint · Privacy Policy · Effective 21 October 2026</footer>
+  <footer>EasyPrint · Privacy Policy · Effective 10 November 2026</footer>
 </main>
 </body>
 </html>
